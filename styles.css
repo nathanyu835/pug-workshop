@@ -1,7 +1,8 @@
 body {
   font-family: 'Amatic SC';
   font-size: 1.5rem;
-  margin: 0px
+  margin: 0px;
+  background-color: rgba(40,40,40,0.4);
 }
 
 ul {
@@ -59,10 +60,13 @@ a:hover {
 }
 
 .callout {
-  background-image: url('images/callout.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
+  padding-bottom: 40px;
 }
 
 .callout img {
